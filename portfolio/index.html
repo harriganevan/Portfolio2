@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.css"
+    integrity="sha512-wCVOuVtxsXqrQK7tj9j4BvyfITQmpp7UE7mVilD7aieGLYFEIAa5UKTP1RapOf6dxQ9JIKAneakcyykWG4r4Ow=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evan Harrigan</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#home">
+        <div class="initial">EH</div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <span class="navbar-text">
+          <img src="/githubLogo.png" width="40">
+          <img src="/linkedin.png" width="40">
+        </span>
+      </div>
+    </div>
+  </nav>
+
+  <div id="fullpage">
+    <div class="section" id="section1">
+      <h1 id="name">Evan Harrigan</h1>
+      <h2 id="scroll">Scroll to learn more</h2>
+    </div>
+
+    <div class="section" id="section2">
+      <div class="row" style="text-align: center;">
+        <div class="col-md-5 d-flex justify-content-center align-items-center" id="about-me">
+          About </br> &lt;ME&gt;
+        </div>
+        <div class="col-md-7" id="about-me-content">
+          Hi! My name is Evan. </br></br>
+          I'm a recent computer science graduate from Georgia State University. </br></br>
+          I'm interested in a career in software engineering and i'm pursuing an opportunity to apply my problem solving
+          and computer science skills to software engineering to develop knowledge about the industry.</div>
+      </div>
+    </div>
+
+    <div class="section" id="section3">
+      <h1 class="section-title">Projects</h1>
+      <div class="slide" id="slide1">
+        <div class="row project-grid">
+          <div class="col-12">
+            <h2 class="project-title">Trip Planner</h2>
+          </div>
+          <div class="col-md-6">
+            <img src="/trip-planner2.PNG" class="img-fluid project-image" alt="trip-planner">
+            <div class="d-flex justify-content-evenly">
+              <img src="techLogos/react.svg" alt="react" width="15%">
+              <img src="techLogos/nodejs-icon.svg" alt="react" width="12%">
+              <img src="techLogos/mongodb-icon.svg" alt="react" width="7%">
+              <img src="techLogos/express.svg" alt="react" width="15%">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <p class="project-description">
+              Trip Planner is a web application that allows users to create and
+              plan trips. The application provides a geographic map and allows users
+              to search for nearby attractions of their destinations. Users can create an account and save their trips.
+              Accomplished using React, Express, Node.js, and MongoDB.</p>
+            <a href="https://trip-planner.xyz/"> view website here </a>
+          </div>
+        </div>
+      </div>
+      <div class="slide" id="slide2">
+        <div class="row project-grid">
+          <div class="col-12">
+            <h2 class="project-title">Graphical Password</h2>
+          </div>
+          <div class="col-md-6">
+            <img src="/graphicalPassword.jpg" class="img-fluid project-image" alt="graphical-password" style="margin-bottom: 20px;">
+            <div class="d-flex justify-content-evenly">
+              <img src="techLogos/html5-original.svg" alt="html" width="15%">
+              <img src="techLogos/css3.svg" alt="css" width="15%">
+              <img src="techLogos/javascript-plain.svg" alt="js" width="15%">
+              <img src="techLogos/python-original.svg" alt="python" width="15%">
+              <img src="techLogos/flask-original.svg" alt="flask" width="15%">
+              <img src="techLogos/sqlite-original.svg" alt="sqlite" width="15%">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <p class="project-description">
+              Graphical Password is a web application login system that uses images selected in a
+              specific order as a user's password. The application features robust accessibility features
+              for a memory impaired and neurodiverse demographic. Accomplished using
+              Flask/Python, JavaScript, HTML/CSS. Regarded as 'best implementation' of this project
+              by professor.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="slide" id="slide3">
+        <div class="row project-grid">
+          <div class="col-12">
+            <h2 class="project-title">Stellar Classification</h2>
+          </div>
+          <div class="col-md-6">
+            <img src="/stellarID.png" class="img-fluid project-image" alt="stellar-classification" style="margin-bottom: 20px;">
+            <div class="d-flex justify-content-evenly">
+              <img src="techLogos/python-original.svg" alt="python" width="15%">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <p class="project-description">
+              Developed a series of machine learning algorithms to be applied to astronomical data to
+              classify objects in space as stars, galaxies, or quasars. This project explores neural
+              networks, support vector machines, and random forest classifiers.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="section4">
+      <h1 class="section-title">Skills</h1>
+    </div>
+
+    <div class="section" id="section5">
+      <h1 class="section-title">Contact</h1>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.min.js"
+    integrity="sha512-LGiXf+jHGTHcIybSsOWO3I/in+OObCkcEsWIZ7IyhzfD6RzD5qDUw2CK+JveuI7zTSEcDG//bIOvOpAJW2BWsg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script type="text/javascript" src="main.js"></script>
+
+</body>
+
+</html>
