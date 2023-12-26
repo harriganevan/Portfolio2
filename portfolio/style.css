@@ -136,12 +136,51 @@ h2 {
 }
 
 #section4 {
-  background-color: rgb(179, 98, 199);
+  background-color: rgb(100, 37, 116);
+  text-align: center;
+}
+
+.skills-logos {
+  padding-top: 5%;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.logo {
+  width: 10%;
+}
+
+.skills-description {
+  color: white;
+  font-weight: 500;
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 5%;
 }
 
 #section5 {
-  color: rgb(255, 255, 255);
   background-color: black;
+}
+
+@media only screen and (min-width: 2560px) {
+  .project-description {
+    font-weight: 400;
+    font-size: 2.5em;
+  }
+}
+
+@media only screen and (max-width: 1440px) {}
+
+@media only screen and (max-width: 1024px) {
+  .project-description {
+    font-weight: 200;
+    font-size: 1.25em;
+  }
+
+  .project-grid {
+    margin-left: 75px;
+    margin-right: 100px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -188,5 +227,25 @@ h2 {
   .section-title {
     font-size: 3em;
     top: 60px;
+  }
+
+  .logo {
+    width: 15%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .skills-logos {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .logo {
+    width: 25%;
+  }
+
+  .skills-description {
+    font-weight: 300;
+    font-size: 1em;
   }
 }
