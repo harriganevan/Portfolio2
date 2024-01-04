@@ -8,6 +8,10 @@ span {
   background-color: white !important;
 }
 
+dd {
+  margin-left: 40px;
+}
+
 .navbar-text {
   padding: 0 !important;
 }
@@ -50,19 +54,18 @@ h2 {
   margin-bottom: 1.5em;
 }
 
-#about-me {
-  font-size: 8em;
-  font-weight: 900;
-  color: white;
-  /* outline: 1px solid black; */
-}
-
 #about-me-content {
   font-size: 2em;
   font-weight: 500;
   color: white;
   padding-right: 2em;
-  /* outline: 1px solid black; */
+}
+
+#contact-me-content {
+  font-size: 1.75em;
+  font-weight: 500;
+  color: white;
+  padding-left: 50px;
 }
 
 #scroll {
@@ -123,20 +126,24 @@ h2 {
   font-size: 1.5em;
 }
 
+.link {
+  margin-top: 20%;
+}
+
 #slide1 {
-  background-color: rgb(187, 74, 74);
+  background-color: #fc6c7c;
 }
 
 #slide2 {
-  background-color: rgb(196, 111, 199);
+  background-color: rgb(41, 150, 150);
 }
 
 #slide3 {
-  background-color: rgb(81, 175, 187);
+  background-color: rgb(48, 54, 54);
 }
 
 #section4 {
-  background-color: rgb(100, 37, 116);
+  background-color: rgb(227, 116, 255);
   text-align: center;
 }
 
@@ -162,16 +169,79 @@ h2 {
   background-color: black;
 }
 
+.contact-info {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 1.5em;
+  position: absolute;
+  bottom: 5%;
+}
+
+.email {
+  text-align: right;
+}
+
+.linkedin {
+  text-align: left;
+}
+
 @media only screen and (min-width: 2560px) {
+  h1 {
+    font-size: 10em;
+  }
+
+  h2 {
+    font-size: 2.3em;
+  }
+
+  #about-me-content {
+    font-size: 2.5em;
+  }
+
+  #contact-me-content {
+    font-size: 2.25em;
+  }
+
   .project-description {
     font-weight: 400;
     font-size: 2.5em;
   }
+
+  .project-github {
+    margin-right: 0;
+    margin-left: 0;
+    width: 60px;
+  }
+
+  .contact-info{
+    font-size: 3em;
+  }
 }
 
-@media only screen and (max-width: 1440px) {}
+@media only screen and (max-width: 1440px) {
+  .project-github {
+    width: 40px;
+  }
+
+  .contact-info {
+    font-size: 1.25em;
+  }
+}
 
 @media only screen and (max-width: 1024px) {
+
+  #about-me-content {
+    font-size: 1.5em;
+  }
+
+  #about-me-closed {
+    font-size: 5em;
+  }
+
+  #contact-me-content {
+    font-size: 1.25em;
+  }
+
   .project-description {
     font-weight: 200;
     font-size: 1.25em;
@@ -181,17 +251,30 @@ h2 {
     margin-left: 75px;
     margin-right: 100px;
   }
+
+  .contact-info{
+    font-size: 1em;
+  }
 }
 
 @media only screen and (max-width: 768px) {
+
   #about-me {
     font-size: 4em;
-    margin-bottom: 1em;
+  }
+
+  #about-me-closed {
+    font-size: 5em;
   }
 
   #about-me-content {
     font-size: 1.5em;
-    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-right: calc(var(--bs-gutter-x) * 1.5);
+  }
+
+  #contact-me-content {
+    font-size: 1.25em;
+    padding-right: 50px;
   }
 
   #fp-nav {
@@ -224,6 +307,10 @@ h2 {
     font-size: 1em;
   }
 
+  .project-github {
+    margin-left: -150%;
+  }
+
   .section-title {
     font-size: 3em;
     top: 60px;
@@ -232,9 +319,33 @@ h2 {
   .logo {
     width: 15%;
   }
+
+  .email {
+    text-align: center;
+  }
+
+  .linkedin {
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 600px) {
+
+  h1 {
+    font-size: 5em;
+    font-weight: 900;
+    color: white;
+  }
+
+  #about-me-content {
+    font-size: 1em;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+  }
+
+  #contact-me-content {
+    font-size: 1em;
+  }
+
   .skills-logos {
     margin-left: 40px;
     margin-right: 40px;
@@ -244,8 +355,24 @@ h2 {
     width: 25%;
   }
 
+  .project-github {
+    margin-left: -500%;
+  }
+
   .skills-description {
     font-weight: 300;
     font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  h1 {
+    font-size: 3.5em;
+    font-weight: 700;
+    color: white;
+  }
+
+  .project-github {
+    margin-left: -35px;
   }
 }
