@@ -103,8 +103,8 @@ h2 {
   border: 5px solid rgb(255, 255, 255);
   border-radius: 25px;
   margin-top: 75px;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 85px;
+  margin-right: 120px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -130,12 +130,16 @@ h2 {
   margin-top: 20%;
 }
 
+#slide0 {
+  background-color: rgb(62, 185, 185);
+}
+
 #slide1 {
   background-color: #fc6c7c;
 }
 
 #slide2 {
-  background-color: rgb(41, 150, 150);
+  background-color: rgb(255, 177, 104);
 }
 
 #slide3 {
@@ -174,7 +178,7 @@ h2 {
   color: rgb(255, 255, 255);
   font-size: 1.5em;
   position: absolute;
-  bottom: 5%;
+  bottom: 10%;
 }
 
 .email {
@@ -213,7 +217,7 @@ h2 {
     width: 60px;
   }
 
-  .contact-info{
+  .contact-info {
     font-size: 3em;
   }
 }
@@ -249,10 +253,10 @@ h2 {
 
   .project-grid {
     margin-left: 75px;
-    margin-right: 100px;
+    margin-right: 105px;
   }
 
-  .contact-info{
+  .contact-info {
     font-size: 1em;
   }
 }
@@ -347,6 +351,7 @@ h2 {
   }
 
   .skills-logos {
+    padding-top: 20%;
     margin-left: 40px;
     margin-right: 40px;
   }
@@ -362,6 +367,16 @@ h2 {
   .skills-description {
     font-weight: 300;
     font-size: 1em;
+  }
+
+  .project-description {
+    font-weight: 300;
+    font-size: .8em;
+  }
+
+  .project-title {
+    font-size: 1.5em;
+    font-weight: 400;
   }
 }
 
